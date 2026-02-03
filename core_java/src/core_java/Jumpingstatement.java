@@ -1,0 +1,16 @@
+package core_java;
+
+public class Jumpingstatement {
+public static void main(String[] args) {
+	int i;
+	for (i=0;i<10;i++) {
+		if(i==5) {
+//			break;
+			continue;
+		}
+		else {
+			System.out.println("i: "+i);
+		}
+	}
+}
+}
